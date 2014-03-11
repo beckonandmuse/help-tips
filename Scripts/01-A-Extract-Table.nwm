@@ -1,0 +1,33 @@
+# 01.A. Tips: Copy Table, Delete first column and row.
+#
+################################################
+
+$doc = Document.active
+$style = $doc.styleWithName “Heading 4”
+Find $style
+$fname = Read Selection
+New Clipboard “table_name”
+Write Clipboard “$fname”, ‘table_name’
+
+Select Next Table
+Edit:Copy:Copy
+File:New
+View:Draft View
+
+Edit:Paste:Paste
+Press Button “Add Pasted Styles”
+
+# Constructs the New File Name & Focuses in on the Same Folder as Original File
+
+	$path = ‘~/Documents/GHProjects/help-tips/separate-tables/’
+	$newFile = Read Clipboard ‘table_name’
+	$newfilePath = $path.filePathByAppendingComponent($newFile)
+
+# Saves the New Document containing only Hebrew Lemmas
+
+	$isSaved = Save As $newfilePath
+If ! $isSaved
+	Prompt "Failed to backup the document!"
+End
+
+Delete Clipboard 'table_name'
