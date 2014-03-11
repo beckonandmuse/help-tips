@@ -1,0 +1,135 @@
+################################################
+# Custom Commands
+################################################
+
+# -----------------------------
+# SelectUniqueTableCell
+# -----------------------------
+# Select chosen cell content from only Document Table
+# Returns the text object (the Cell content).
+
+Define Command SelectUniqueTableCell($row, $column)
+    $doc = Document.active
+    Select Table Cell 1,1
+    $tableSel = $doc.tableSelection
+    If $tableSel
+        $table = $tableSel.table
+        $cellText = $table.textAtRowAndColumn $row, $column
+    else
+	    prompt “There is no detectable table!”
+    end
+    Return $cellText
+End
+
+# -----------------------------
+# SelectStyleInSelection
+# -----------------------------
+# Assumes that there is actively selected text.
+# If it is within a text, assumes that the cells text
+# is selected.
+
+Define Command SelectStyleInSelection($styleName)
+    $doc = Document.active
+    $style = $doc.styleWithName “$styleName”
+    Find All in Selection $style
+End
+
+################################################
+# (End Custom Commands)
+################################################
+
+
+# Takes note of current file name in order to save the current
+# file to a different folder with the same filename.
+
+	$doc = Document.active
+	$path = $doc.filePath
+
+# Establishes current filename & Current immediate parent folder for file.
+
+	$currentName = $path.lastFilePathComponent
+
+	# For every parent folder within our path, there is an array index.
+	# The parent folders’ names are the values for those indices.
+	$components = $path.filePathComponents
+
+	# We only care to check the farthest subfolder.
+	$subfolderCount = $components.count
+	# If there are three for count, index [2] is the last.
+	# The last is always the filename with extension.
+	# Therefore, we want the second to last, which is two lower
+	# than the array.count.
+	$currentFolderIndex = $subfolderCount - 2
+	$currentFolder = $components[$currentFolderIndex]
+	
+	# Establishes the new location and filename for the results of the
+	# following macro to be saved.
+	$newFolder = ‘~/Documents/GHProjects/help-tips/separate-tables-pt-2/’
+	$newfilePath = $newFolder.filePathByAppendingComponent($currentName)
+
+# Checks to see if the user is working on the proper file by making sure
+# that the file the script is currently being executed on is located in 
+# ...GHProjects/help-tips/tables-separated... and then ...
+
+	If $currentFolder != “separate-tables”
+		$folder = $path.filePathByRemovingLastComponent
+		Prompt “Sorry! Current folder is $folder !”
+	Else
+		
+		# Attempts to save a new copy of the file
+
+			$isSaved = Save As $newfilePath
+		If ! $isSaved
+			Prompt "Failed to save the document to $newfilePath !"
+		End
+End
+
+# Deletes the header row.
+
+	Select Table Cell 1,3
+	Table:Select:Rows
+	Table:Delete:Rows
+
+# Deletes the questions and comments column.
+
+	Select Table Cell 1,3
+	Table:Select:Columns
+	Table:Delete:Columns
+
+# Gives the first column the proper formatting.	
+
+	Select Table Cell 1,1
+	Table:Select:Columns
+	Format:Remove Attributes and Styles
+	Format:Paragraph Style:Table normal
+
+# Does a Row Count of our Table
+
+	$doc = Document.active
+	Select Table Cell 1,1
+
+	$tableSel = $doc.tableSelection
+
+	If $tableSel
+
+		# This is our TABLE OBJECT being drawn from the 
+		# TABLE SELECTION OBJECT (using .table).
+
+		$table = $tableSel.table
+		$rows = $table.rowCount
+	else
+		prompt “There is no detectable table!”
+	end
+
+# Does a search for key styles in the description column
+# and replaces them with the appropriate HTML span elements.
+
+	$i = 0
+	While $i < $rows
+		$cellText = SelectUniqueTableCell($i, 1)
+	     $style = $doc.styleWithName “tip-desc-title”
+		$cellText.findAndReplace “($style)”, “<span class=’tip-desc-title’>\\1</span>”,  “aE”  
+		$i += 1
+	End
+	
+
