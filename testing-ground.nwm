@@ -1,0 +1,63 @@
+################################################
+# Custom Functions
+################################################
+
+# -----------------------------
+# SelectUniqueTableCell
+# -----------------------------
+# Select chosen cell content from only Document Table
+# Returns the text object (the Cell content).
+
+Define Command SelectUniqueTableCell($row, $column)
+    $doc = Document.active
+    Select Table Cell 1,1
+    $tableSel = $doc.tableSelection
+    If $tableSel
+        $table = $tableSel.table
+        $cellText = $table.textAtRowAndColumn $row, $column
+    else
+        prompt “There is no detectable table!”
+    end
+    Return $cellText
+End
+
+################################################
+# (End Custom Functions)
+################################################
+
+# Does a Row Count of our Table
+
+    $doc = Document.active
+    Select Table Cell 1,1
+
+    $tableSel = $doc.tableSelection
+
+    If $tableSel
+
+        # This is our TABLE OBJECT being drawn from the 
+        # TABLE SELECTION OBJECT (using .table).
+
+        $table = $tableSel.table
+        $rows = $table.rowCount
+    else
+        prompt “There is no detectable table!”
+    end
+
+# Does a search for key styles in the description column
+# and replaces them with the appropriate HTML span elements.
+
+    $i = 0
+    While $i < $rows
+        $cellText = SelectUniqueTableCell($i, 1)
+        $style = $doc.styleWithName “tip-desc-title”
+        $styledText = $cellText.findAll $style, “aE”
+        $doc.setSelection $styledText
+
+        ForEach $occurrence in $styledText
+            $doc.setSelection $occurrence
+            Format:Character Style:Remove Character Styles
+            Replace All in Selection  “([A-Za-z0-9][A-Za-z0-9\w\\- ]+[A-Za-z0-9])”, “<span class=’tip-desc-title’>\\1</span>”,  “aEs”
+        End
+
+        $i += 1
+    End
