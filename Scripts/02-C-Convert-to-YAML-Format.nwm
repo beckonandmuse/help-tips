@@ -1,173 +1,106 @@
-{\rtf1 \mac \ansicpg10000 \nisusversion40007 \deff0 {\fonttbl {\f0 \fmodern \fcharset77 Courier;}{\f1 \fnil \fcharset77 Tahoma-Bold{\*\falt Tahoma};}{\f2 \fswiss \fcharset77 Tahoma;}}{\colortbl ;\red0 \green0 \blue0 ;}{\*\revtbl {Unknown;}{Joshua Eldridge;}}\nisusrevtypes0 \donotshowinsdel1 {\*\nisustoctable {\nisustoc \tcf68 {\nisustocname Default TOC}{\*\nisustoctabrep  }{\*\nisustocretrep  }{\nisustoclevelstyle TOC 1}{\nisustoclevelstyle TOC 2}{\nisustoclevelstyle TOC 3}{\nisustoclevelstyle TOC 4}{\nisustoclevelstyle TOC 5}{\nisustoclevelstyle TOC 6}{\nisustoclevelstyle TOC 7}{\nisustoclevelstyle TOC 8}{\nisustoclevelstyle TOC 9}}\nisusactivetoc68
-}{\*\nisusxetable {\nisusxe \xef68 {\nisusxename Default Index}{\nisusxeheaderstyle Index Heading}{\nisusxelevelstyle Index 1}{\nisusxelevelstyle Index 2}{\nisusxelevelstyle Index 3}{\nisusxelevelstyle Index 4}{\nisusxelevelstyle Index 5}{\nisusxelevelstyle Index 6}{\nisusxelevelstyle Index 7}{\nisusxelevelstyle Index 8}{\nisusxelevelstyle Index 9}{\*\fldinst INDEX \\k ". " \\g \endash  \\e "\tab " \\l ", " \\f D}}\nisusactivexe68
-}{\stylesheet {\s3060 \nisusnoteplacement0 \nisusnotespanheight1300 \nisusnotespanlines5 \nisusnotedocrefstyle3061 \nisusnoterefstyle3062 \nisusnotegutterh60 {\*\nisusnotedefaulttext .\u160 ?}\nisusnotedivalign2
-\nisusnotedivpercent25 \nisusnotedivoverpercent75 {\*\nisusnotedivstyle \nisusbrdredge \brdrs \brdrw20 \brdrcf1 }\sbasedon3063 \f0\fs24 \ql\nowidctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar
-\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Footnote;}{\*\cs3061 \super Note Reference;}{\*\cs3062 \sbasedon3061 \nosupersub Note Reference in Note;}{\s3063 \snext3063 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Normal;}{\s3064 \nisusnoteplacement2 \nisusnotespanheight1300 \nisusnotespanlines5 \nisusnotedocrefstyle3061 \nisusnoterefstyle3062 \nisusnotegutterh60 {\*\nisusnotedefaulttext .\u160 ?}\nisusnotedivalign2
-\nisusnotedivpercent25 \nisusnotedivoverpercent75 {\*\nisusnotedivstyle \nisusbrdredge \brdrs \brdrw20 \brdrcf1 }\sbasedon3063 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar
-\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Endnote;}{\s3065 \snext3063 \sbasedon3063 \f1\fs28\b \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl1 Heading 1;}{\s3066 \snext3063 \sbasedon3065 \f2\fs26\b0 \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl2 Heading 2;}{\s3067 \snext3063 \sbasedon3066 \f2\fs26\b0\i \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl3 Heading 3;}{\s3068 \snext3068 \sbasedon3063 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Header;}{\s3069 \snext3063 \sbasedon3063 \f1\fs28\b \qc\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Title;}{\s3070 \snext3070 \sbasedon3063 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Footer;}{\s3071 \snext3071 \sbasedon3063 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li1080\lin1080\fi0\ri1020\rin1020 Block Quote;}{\*\cs3072 \i Emphatic;}{\s3073 \snext3063 \sbasedon3067 \f2\fs26\b0\i0 \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl4 Heading 4;}{\s3074 \snext3063 \sbasedon3073 \f2\fs26\b0\i0\ul \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl5 Heading 5;}{\s3075 \snext3063 \sbasedon3074 \f2\fs26\b0\i\ul \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl6 Heading 6;}{\*\cs3076 \b Strong;}}{\*\listtable {\list \listhybrid {\listlevel \levelnfc1 \levelnfcn1 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li360
-\lin360 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc3 \levelnfcn3 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}{\levelnumbers \'01;}\li720
-\lin720 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}{\levelnumbers \'01;}\li1080
-\lin1080 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'03);}{\levelnumbers \'01;}\li1440
-\lin1440 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}{\levelnumbers \'02;}\li1800
-\lin1800 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}{\levelnumbers \'02;}\li2160
-\lin2160 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'06);}{\levelnumbers \'02;}\li2520
-\lin2520 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'07);}{\levelnumbers \'02;}\li2880
-\lin2880 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'08);}{\levelnumbers \'02;}\li3240
-\lin3240 \fi-360 \ri0 \rin0 }{\listname ;}\listid290659938 \nisuslistcontnum0 {\*\liststylename Outline;}}{\list \listhybrid {\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li648
-\lin648 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li1008
-\lin1008 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li1368
-\lin1368 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li1728
-\lin1728 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li2088
-\lin2088 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li2448
-\lin2448 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li2808
-\lin2808 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li3168
-\lin3168 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li3528
-\lin3528 \fi-360 \ri0 \rin0 }{\listname ;}\listid1743764688 \nisuslistcontnum0 {\*\liststylename Bullet List;}}{\list \listhybrid {\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li648
-\lin648 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}{\levelnumbers \'01;}\li1008
-\lin1008 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}{\levelnumbers \'01;}\li1368
-\lin1368 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'03);}{\levelnumbers \'02;}\li1728
-\lin1728 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}{\levelnumbers \'02;}\li2088
-\lin2088 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}{\levelnumbers \'02;}\li2448
-\lin2448 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'06);}{\levelnumbers \'01;}\li2808
-\lin2808 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'07);}{\levelnumbers \'01;}\li3168
-\lin3168 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'08);}{\levelnumbers \'01;}\li3528
-\lin3528 \fi-360 \ri0 \rin0 }{\listname ;}\listid743780607 \nisuslistcontnum0 {\*\liststylename Lettered List;}}{\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li720
-\lin720 \fi-432 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}{\levelnumbers \'01;}\li1080
-\lin1080 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}{\levelnumbers \'01;}\li1440
-\lin1440 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'03);}{\levelnumbers \'02;}\li1800
-\lin1800 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}{\levelnumbers \'02;}\li2160
-\lin2160 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}{\levelnumbers \'02;}\li2520
-\lin2520 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'06);}{\levelnumbers \'01;}\li2880
-\lin2880 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'07);}{\levelnumbers \'01;}\li3240
-\lin3240 \fi-432 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'08);}{\levelnumbers \'01;}\li3600
-\lin3600 \fi-432 \ri0 \rin0 }{\listname ;}\listid218352662 \nisuslistcontnum0 {\*\liststylename Number List;}}{\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li648
-\lin648 \fi-648 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'04\'00.\'01.;}{\levelnumbers \'01\'03;}\li868
-\lin868 \fi-868 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'06\'00.\'01.\'02.;}{\levelnumbers \'01\'03\'05;}\li1088
-\lin1088 \fi-1088 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'08\'00.\'01.\'02.\'03.;}{\levelnumbers \'01\'03\'05\'07;}\li1308
-\lin1308 \fi-1308 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers \'01\'03\'05\'07\'09;}\li1528
-\lin1528 \fi-1528 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b;}\li1748
-\lin1748 \fi-1748 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d;}\li1968
-\lin1968 \fi-1968 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f;}\li2188
-\lin2188 \fi-2188 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\li2408
-\lin2408 \fi-2408 \ri0 \rin0 }{\listname ;}\listid1951121158 \nisuslistcontnum0 {\*\liststylename Tiered List;}}{\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li576
-\lin576 \fi-576 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'04\'00.\'01.;}{\levelnumbers \'01\'03;}\li796
-\lin796 \fi-796 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'06\'00.\'01.\'02.;}{\levelnumbers \'01\'03\'05;}\li1016
-\lin1016 \fi-1016 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'08\'00.\'01.\'02.\'03.;}{\levelnumbers \'01\'03\'05\'07;}\li1236
-\lin1236 \fi-1236 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers \'01\'03\'05\'07\'09;}\li1456
-\lin1456 \fi-1456 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b;}\li1676
-\lin1676 \fi-1676 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d;}\li1896
-\lin1896 \fi-1896 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f;}\li2116
-\lin2116 \fi-2116 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\li2336
-\lin2336 \fi-2336 \ri0 \rin0 }{\listname ;}\listid418012816 \nisuslistcontnum1 {\*\liststylename Headings;}}}{\*\listoverridetable {\listoverride \listid290659938 \listoverridecount0 \ls1 }{\listoverride \listid1743764688 \listoverridecount0 \ls2 }{\listoverride \listid743780607 \listoverridecount0 \ls3 }{\listoverride \listid218352662 \listoverridecount0 \ls4 }{\listoverride \listid1951121158 \listoverridecount0 \ls5 }{\listoverride \listid418012816 \listoverridecount0 \ls6 }}\defformat {\info {\*\nisusgmtoffset -5:00}{\author Joshua Eldridge}{\creatim \yr2014 \mo3 \dy11 \hr14 \min33 }{\revtim \yr2014 \mo3 \dy11 \hr18 \min8 }}{\*\userprops }\viewkind4 \viewscale150 \nisusviewruler1
-\nisusviewrulerh1 \nisusviewrulerv0 \nisusviewtoolbar1 \nisusviewtooldrawer1 \nisusviewpagenumtype1 \nisusviewrulericons0 {\*\nisusviewsettings \viewkind4 \viewscale150 {\nisusnavsettings {\*\mode toc}{\*\closedtochandles }{\*\visible 0}}}{\*\nisusviewsettings \viewkind1 \viewzk1 {\nisusnavsettings {\*\mode toc}{\*\closedtochandles }{\*\visible 0}}}{\*\nisuswindow \x31 \y4 \w649 \h1024 }\nisusrulerunits0
-\nshwinv0 \nshwpg1 \nisusinlinespell1 \hyphauto0 \hyphhotz9360 \nisusselectstart1017 \nisusselectlength0 \ftnstart1 \ftnnar \aftnstart1 \aftnnar \aenddoc \fet2 \ftnbj \paperw12240 \paperh15840 \margl1440 \margr1440 \margt1800 \margb1800 \gutter0 \pgnstart1 \nocolbal \widowctrl \f0 \sectd \endnhere \sftnnar \saftnnar \linemod0 \cols1 \ltrsect \colbalsxn0 \pgwsxn12240 \pghsxn15840 \marglsxn1440 \margrsxn1440 \margtsxn1800 \margbsxn1800 \guttersxn0 \headery720 \footery720 \pgnstarts1 \pgnrestart \pgndec \sxnstarts1 \sxnrestart \sxndec {\header \plain \pard \s3068 \f0\fs24 }{\footer \plain \pard \s3070 \f0\fs24 }\deftab720
-{\pard \s3063 {################################################\par
-# Custom Commands\par
-################################################\par
-\par
-# -----------------------------\par
-# SelectUniqueTableCell\par
-# -----------------------------\par
-# Select chosen cell content from only Document Table\par
-# Returns the text object (the Cell content).\par
-\par
-Define Command SelectUniqueTableCell($row, $column)\par
-    $doc = Document.active\par
-    Select Table Cell 1,1\par
-    $tableSel = $doc.tableSelection\par
-    If $tableSel\par
-        $table = $tableSel.table\par
-        $cellText = $table.textAtRowAndColumn $row, $column\par
-    else\par
-\tab     prompt "There is no detectable table!"\par
-    end\par
-    Return $cellText\par
-End\par
-\par
-# -----------------------------\par
-# MakeField\par
-# -----------------------------\par
-# Prepares the 'Field' line in the YAML file.\par
-\par
-Define Command MakeField($cellContent)\par
-\tab $output = $cellContent.copy\par
-\tab $output = $output.textByLowercasing\par
-\tab $output.replaceAll " ", "_"\par
-\tab $output.append ":"\par
-\tab Return $output\par
-End\par
-\par
-# -----------------------------\par
-# MakeTitle\par
-# -----------------------------{\nisusselectcaret \par
-# Prepares the 'Title' line in the YAML file.\par
-\par
-Define Command MakeTitle($cellContent)\par
-\tab $cellContentCopy = $cellContent.copy\par
-\tab $cellContentCopy = $cellContentCopy.textByCapitalizing\par
-\tab $output = "    title: "\par
-\tab $output.append "$cellContentCopy"\par
-\tab Return $output\par
-End\par
-}\par
-# -----------------------------\par
-# MakeContent\par
-# -----------------------------\par
-# Prepares the 'Content' line in the YAML file.\par
-\par
-Define Command MakeContent($cellContent)\par
-\tab
-$cellContentCopy = $cellContent.copy\par
-\par
-\tab Begin Perl\par
-\tab \tab \par
-\tab \tab $break = "\\n        ";\par
-\tab \tab $cellContentCopy =~ s/(.\{1,75\})(?:\\s|$|(\\p\{Ps\}))|(.\{75\})/$1$3$break$2/g;\par
-\par
-\tab End\par
-\par
-\tab $output = "    content: >\\n        "\par
-\tab $output.append "$cellContentCopy"\par
-\tab Return $output\par
-End\par
-\par
-# Does a Row Count of our Table\par
-\par
-\tab $doc = Document.active\par
-\tab Select Table Cell 1,1\par
-\par
-\tab $tableSel = $doc.tableSelection\par
-\par
-\tab If $tableSel\par
-\par
-\tab \tab # This is our TABLE OBJECT being drawn from the \par
-\tab \tab # TABLE SELECTION OBJECT (using .table).\par
-\par
-\tab \tab $table = $tableSel.table\par
-\tab \tab $rows = $table.rowCount\par
-\tab else\par
-\tab \tab prompt "There is no detectable table!"\par
-\tab end\par
-\par
-# Does a search for key styles in the description column\par
-# and replaces them with the appropriate HTML span elements.\par
-\par
-\tab $i = 0\par
-\tab While $i < $rows\par
-\tab \tab $cell = SelectUniqueTableCell($i, 0)\tab \tab \par
-\tab \tab \tab $fieldLabel = MakeField($cell)\par
-\tab \tab \tab Select Document End\par
-\tab \tab \tab Insert Text "$fieldLabel\\n"\par
-\tab \tab $cell = SelectUniqueTableCell($i, 0)\tab \tab \par
-\tab \tab \tab $title = MakeTitle($cell)\par
-\tab \tab \tab Select Document End\par
-\tab \tab \tab Insert Text "$title\\n"\par
-\tab \tab $cell = SelectUniqueTableCell($i, 1)\tab \tab \par
-\tab \tab \tab $content = MakeContent($cell)\par
-\tab \tab \tab Select Document End\par
-\tab \tab \tab Insert Text "$content\\n"\par
-\tab \tab $i += 1\par
-\tab End\par
-\tab \par
-\par
-\par }}}
+################################################
+# Custom Commands
+################################################
+
+# -----------------------------
+# SelectUniqueTableCell
+# -----------------------------
+# Select chosen cell content from only Document Table
+# Returns the text object (the Cell content).
+
+Define Command SelectUniqueTableCell($row, $column)
+    $doc = Document.active
+    Select Table Cell 1,1
+    $tableSel = $doc.tableSelection
+    If $tableSel
+        $table = $tableSel.table
+        $cellText = $table.textAtRowAndColumn $row, $column
+    else
+	    prompt "There is no detectable table!"
+    end
+    Return $cellText
+End
+
+# -----------------------------
+# MakeField
+# -----------------------------
+# Prepares the 'Field' line in the YAML file.
+
+Define Command MakeField($cellContent)
+	$output = $cellContent.copy
+	$output = $output.textByLowercasing
+	$output.replaceAll " ", "_"
+	$output.append ":"
+	Return $output
+End
+
+# -----------------------------
+# MakeTitle
+# -----------------------------
+# Prepares the 'Title' line in the YAML file.
+
+Define Command MakeTitle($cellContent)
+	$cellContentCopy = $cellContent.copy
+	$cellContentCopy = $cellContentCopy.textByCapitalizing
+	$output = "    title: "
+	$output.append "$cellContentCopy"
+	Return $output
+End
+
+# -----------------------------
+# MakeContent
+# -----------------------------
+# Prepares the 'Content' line in the YAML file.
+
+Define Command MakeContent($cellContent)
+	$cellContentCopy = $cellContent.copy
+
+	Begin Perl
+		
+		$break = "\n        ";
+		$cellContentCopy =~ s/(.{1,75})(?:\s|$|(\p{Ps}))|(.{75})/$1$3$break$2/g;
+
+	End
+
+	$output = "    content: >\n        "
+	$output.append "$cellContentCopy"
+	Return $output
+End
+
+# Does a Row Count of our Table
+
+	$doc = Document.active
+	Select Table Cell 1,1
+
+	$tableSel = $doc.tableSelection
+
+	If $tableSel
+
+		# This is our TABLE OBJECT being drawn from the 
+		# TABLE SELECTION OBJECT (using .table).
+
+		$table = $tableSel.table
+		$rows = $table.rowCount
+	else
+		prompt "There is no detectable table!"
+	end
+
+# Does a search for key styles in the description column
+# and replaces them with the appropriate HTML span elements.
+
+	$i = 0
+	While $i < $rows
+		$cell = SelectUniqueTableCell($i, 0)		
+			$fieldLabel = MakeField($cell)
+			Select Document End
+			Insert Text "$fieldLabel\n"
+		$cell = SelectUniqueTableCell($i, 0)		
+			$title = MakeTitle($cell)
+			Select Document End
+			Insert Text "$title\n"
+		$cell = SelectUniqueTableCell($i, 1)		
+			$content = MakeContent($cell)
+			Select Document End
+			Insert Text "$content\n"
+		$i += 1
+	End
