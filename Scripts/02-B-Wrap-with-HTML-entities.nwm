@@ -1,4 +1,5 @@
-# This macro was originally written by Kino and modified 
+# The following is adapted from
+# a macro was originally written by Kino and modified 
 # to search for specific Character Styles by Joshua Eldridge,
 # Beckon&Muse.com, dev@beckonandmuse.com
 
@@ -58,11 +59,24 @@ foreach $text in $doc.allTexts
 					#############################
 					$bound = $range.bound
 					if $styleObject
-						if $styleObject.name == "tip-desc-title"
+						if $styleObject.name == "doc-desc-title"
 							$doc.setSelection $sel
 							Format:Character Style:Remove Character Styles
 							$location = $range.location
-							$spanStart = "<span class='tip-desc-title'>"
+							$spanStart = "<span class='doc-desc-title'>"
+							$spanEnd = "</span>"
+							$text.insertAtIndex $bound, $spanEnd
+							$text.insertAtIndex $location, $spanStart
+							$spanStartCount = $spanStart.length
+							$spanEndCount = $spanEnd.length
+							$spanCount = $spanStartCount + $spanEndCount
+							$textRangeBound += $spanCount
+							$bound += $spanCount
+						elsif $styleObject.name == "doc-desc-opt"
+							$doc.setSelection $sel
+							Format:Character Style:Remove Character Styles
+							$location = $range.location
+							$spanStart = "<span class='doc-desc-opt'>"
 							$spanEnd = "</span>"
 							$text.insertAtIndex $bound, $spanEnd
 							$text.insertAtIndex $location, $spanStart

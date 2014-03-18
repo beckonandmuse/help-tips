@@ -1,0 +1,277 @@
+{\rtf1 \mac \ansicpg10000 \nisusversion40007 \deff0 {\fonttbl {\f0 \froman \fcharset77 Times-Roman{\*\falt Times};}{\f1 \fnil \fcharset77 Tahoma-Bold{\*\falt Tahoma};}{\f2 \fswiss \fcharset77 Tahoma;}{\f3 \fnil \fcharset77 MyriadPro-LightSemiExt{\*\falt Myriad Pro};}{\f4 \fnil \fcharset77 MyriadPro-SemiboldSemiExt{\*\falt Myriad Pro};}{\f5 \fnil \fcharset77 MyriadPro-BlackSemiExt{\*\falt Myriad Pro};}{\f6 \fnil \fcharset77 MyriadPro-Semibold{\*\falt Myriad Pro};}{\f7 \fnil \fcharset77 MyriadPro-Bold{\*\falt Myriad Pro};}}{\colortbl ;\red0 \green0 \blue0 ;\red128 \green0 \blue0 ;\red101 \green101 \blue101 ;}{\*\revtbl {Unknown;}{Joshua Eldridge;}}\nisusrevtypes0 \donotshowinsdel1 {\*\nisustoctable {\nisustoc \tcf68 {\nisustocname Default TOC}{\*\nisustoctabrep  }{\*\nisustocretrep  }{\nisustoclevelstyle TOC 1}{\nisustoclevelstyle TOC 2}{\nisustoclevelstyle TOC 3}{\nisustoclevelstyle TOC 4}{\nisustoclevelstyle TOC 5}{\nisustoclevelstyle TOC 6}{\nisustoclevelstyle TOC 7}{\nisustoclevelstyle TOC 8}{\nisustoclevelstyle TOC 9}}\nisusactivetoc68
+}{\*\nisusxetable {\nisusxe \xef68 {\nisusxename Default Index}{\nisusxeheaderstyle Index Heading}{\nisusxelevelstyle Index 1}{\nisusxelevelstyle Index 2}{\nisusxelevelstyle Index 3}{\nisusxelevelstyle Index 4}{\nisusxelevelstyle Index 5}{\nisusxelevelstyle Index 6}{\nisusxelevelstyle Index 7}{\nisusxelevelstyle Index 8}{\nisusxelevelstyle Index 9}{\*\fldinst INDEX \\k ". " \\g \endash  \\e "\tab " \\l ", " \\f D}}\nisusactivexe68
+}{\stylesheet {\s5620 \nisusnoteplacement0 \nisusnotespanheight1300 \nisusnotespanlines5 \nisusnotedocrefstyle5621 \nisusnoterefstyle5622 \nisusnotegutterh60 {\*\nisusnotedefaulttext .\u160 ?}\nisusnotedivalign2
+\nisusnotedivpercent25 \nisusnotedivoverpercent75 {\*\nisusnotedivstyle \nisusbrdredge \brdrs \brdrw20 \brdrcf1 }\sbasedon5623 \f0\fs24 \ql\nowidctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar
+\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Footnote;}{\*\cs5621 \super Note Reference;}{\*\cs5622 \sbasedon5621 \nosupersub Note Reference in Note;}{\s5623 \snext5623 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Normal;}{\s5624 \nisusnoteplacement2 \nisusnotespanheight1300 \nisusnotespanlines5 \nisusnotedocrefstyle5621 \nisusnoterefstyle5622 \nisusnotegutterh60 {\*\nisusnotedefaulttext .\u160 ?}\nisusnotedivalign2
+\nisusnotedivpercent25 \nisusnotedivoverpercent75 {\*\nisusnotedivstyle \nisusbrdredge \brdrs \brdrw20 \brdrcf1 }\sbasedon5623 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar
+\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Endnote;}{\s5625 \snext5623 \sbasedon5623 \f1\fs28\b \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl1 Heading 1;}{\s5626 \snext5623 \sbasedon5625 \f1\fs26\b \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl2 Heading 2;}{\s5627 \snext5623 \sbasedon5626 \f1\fs26\b\i \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl3 Heading 3;}{\s5628 \snext5628 \sbasedon5623 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Header;}{\s5629 \snext5623 \sbasedon5623 \f1\fs28\b \qc\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Title;}{\s5630 \snext5630 \sbasedon5623 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Footer;}{\s5631 \snext5631 \sbasedon5623 \f0\fs24 \ql\widctlpar\keep0\keepn0\sb0\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li1080\lin1080\fi0\ri1020\rin1020 Block Quote;}{\*\cs5632 \i Emphatic;}{\s5633 \snext5623 \sbasedon5627 \f2\fs26\b0\i0 \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl4 Heading 4;}{\s5634 \snext5623 \sbasedon5633 \f2\fs26\b0\i0\ul \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl5 Heading 5;}{\s5635 \snext5623 \sbasedon5634 \f2\fs26\b0\i\ul \ql\widctlpar\keep0\keepn0\sb120\sa0\sl240\slmult1\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 \tcf68 \tcl6 Heading 6;}{\*\cs5636 \b Strong;}{\s5637 \snext5637 \f3\fs23 \qj\nowidctlpar\keep0\keepn0\sb0\sa0\sl-400\slmult0\ltrpar\pardirnatural\hyphpar1\li360\lin360\fi360\ri0\rin0 Normal 1;}{\s5638 \snext5638 \sbasedon5637 \f4\fs20 \qc\nowidctlpar\keep0\keepn0\sb0\sa0\sl-400\slmult0\ltrpar\pardirnatural\hyphpar1\li360\lin360\fi-360\ri0\rin0 Table header;}{\s5639 \snext5639 \sbasedon5640 \f5\fs21\AppleTypeServices\AppleTypeServicesF196609\caps\kerning1\expnd2\expndtw12 \ql\nowidctlpar\keep0\keepn0\sb0\sa0\sl-300\slmult0\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Table - Section Row;}{\s5640 \snext5640 \sbasedon5637 \f3\fs21 \qj\nowidctlpar\keep0\keepn0\sb0\sa0\sl-300\slmult0\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Table normal;}{\s5641 \snext5641 \sbasedon5640 \f6\fs21 \qj\nowidctlpar\keep0\keepn0\sb0\sa0\sl-300\slmult0\ltrpar\pardirnatural\hyphpar1\li0\lin0\fi0\ri0\rin0 Table - Setting Title;}{\*\cs5642 \f7\fs21\AppleTypeServices\AppleTypeServicesF196612\b doc-desc-title;}{\*\cs5643 \f6\fs21\cf2 Return Notes;}{\s5644 \snext5644 \sbasedon5638 \f4\fs20\cf3 \qc\nowidctlpar\keep0\keepn0\sb0\sa0\sl-400\slmult0\ltrpar\pardirnatural\hyphpar1\li360\lin360\fi-360\ri0\rin0 Table header (Grey);}}{\*\listtable {\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li648
+\lin648 \fi-648 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'04\'00.\'01.;}{\levelnumbers \'01\'03;}\li868
+\lin868 \fi-868 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'06\'00.\'01.\'02.;}{\levelnumbers \'01\'03\'05;}\li1088
+\lin1088 \fi-1088 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'08\'00.\'01.\'02.\'03.;}{\levelnumbers \'01\'03\'05\'07;}\li1308
+\lin1308 \fi-1308 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers \'01\'03\'05\'07\'09;}\li1528
+\lin1528 \fi-1528 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b;}\li1748
+\lin1748 \fi-1748 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d;}\li1968
+\lin1968 \fi-1968 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f;}\li2188
+\lin2188 \fi-2188 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\li2408
+\lin2408 \fi-2408 \ri0 \rin0 }{\listname ;}\listid816289879 \nisuslistcontnum0 {\*\liststylename Tiered List;}}{\list \listhybrid {\listlevel \levelnfc1 \levelnfcn1 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li360
+\lin360 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc3 \levelnfcn3 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}{\levelnumbers \'01;}\li720
+\lin720 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}{\levelnumbers \'01;}\li1080
+\lin1080 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'03);}{\levelnumbers \'01;}\li1440
+\lin1440 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}{\levelnumbers \'02;}\li1800
+\lin1800 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}{\levelnumbers \'02;}\li2160
+\lin2160 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'06);}{\levelnumbers \'02;}\li2520
+\lin2520 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'07);}{\levelnumbers \'02;}\li2880
+\lin2880 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'08);}{\levelnumbers \'02;}\li3240
+\lin3240 \fi-360 \ri0 \rin0 }{\listname ;}\listid1258459317 \nisuslistcontnum0 {\*\liststylename Outline;}}{\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li576
+\lin576 \fi-576 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'04\'00.\'01.;}{\levelnumbers \'01\'03;}\li796
+\lin796 \fi-796 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'06\'00.\'01.\'02.;}{\levelnumbers \'01\'03\'05;}\li1016
+\lin1016 \fi-1016 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'08\'00.\'01.\'02.\'03.;}{\levelnumbers \'01\'03\'05\'07;}\li1236
+\lin1236 \fi-1236 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers \'01\'03\'05\'07\'09;}\li1456
+\lin1456 \fi-1456 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b;}\li1676
+\lin1676 \fi-1676 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d;}\li1896
+\lin1896 \fi-1896 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f;}\li2116
+\lin2116 \fi-2116 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers \'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\li2336
+\lin2336 \fi-2336 \ri0 \rin0 }{\listname ;}\listid359301516 \nisuslistcontnum1 {\*\liststylename Headings;}}{\list \listhybrid {\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li648
+\lin648 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li1008
+\lin1008 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li1368
+\lin1368 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li1728
+\lin1728 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li2088
+\lin2088 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li2448
+\lin2448 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li2808
+\lin2808 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li3168
+\lin3168 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc23 \levelnfcn23 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'01\u8226 ?;}{\levelnumbers ;}\li3528
+\lin3528 \fi-360 \ri0 \rin0 }{\listname ;}\listid56564048 \nisuslistcontnum0 {\*\liststylename Bullet List;}}{\list \listhybrid {\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li648
+\lin648 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}{\levelnumbers \'01;}\li1008
+\lin1008 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}{\levelnumbers \'01;}\li1368
+\lin1368 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'03);}{\levelnumbers \'02;}\li1728
+\lin1728 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}{\levelnumbers \'02;}\li2088
+\lin2088 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}{\levelnumbers \'02;}\li2448
+\lin2448 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'06);}{\levelnumbers \'01;}\li2808
+\lin2808 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'07);}{\levelnumbers \'01;}\li3168
+\lin3168 \fi-360 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'08);}{\levelnumbers \'01;}\li3528
+\lin3528 \fi-360 \ri0 \rin0 }{\listname ;}\listid1484182762 \nisuslistcontnum0 {\*\liststylename Lettered List;}}{\list \listhybrid {\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'00.;}{\levelnumbers \'01;}\li720
+\lin720 \fi-432 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'01.;}{\levelnumbers \'01;}\li1080
+\lin1080 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'02.;}{\levelnumbers \'01;}\li1440
+\lin1440 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'03);}{\levelnumbers \'02;}\li1800
+\lin1800 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'04);}{\levelnumbers \'02;}\li2160
+\lin2160 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'03(\'05);}{\levelnumbers \'02;}\li2520
+\lin2520 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc0 \levelnfcn0 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'06);}{\levelnumbers \'01;}\li2880
+\lin2880 \fi-431 \ri0 \rin0 }{\listlevel \levelnfc4 \levelnfcn4 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'07);}{\levelnumbers \'01;}\li3240
+\lin3240 \fi-432 \ri0 \rin0 }{\listlevel \levelnfc2 \levelnfcn2 \leveljcn0 \levelfollow0 \levelstartat1 \nisuslevelnuminc1 \levelspace0 \levelindent0 {\leveltext \'02\'08);}{\levelnumbers \'01;}\li3600
+\lin3600 \fi-432 \ri0 \rin0 }{\listname ;}\listid1637121029 \nisuslistcontnum0 {\*\liststylename Number List;}}}{\*\listoverridetable {\listoverride \listid816289879 \listoverridecount0 \ls1 }{\listoverride \listid1258459317 \listoverridecount0 \ls2 }{\listoverride \listid359301516 \listoverridecount0 \ls3 }{\listoverride \listid56564048 \listoverridecount0 \ls4 }{\listoverride \listid1484182762 \listoverridecount0 \ls5 }{\listoverride \listid1637121029 \listoverridecount0 \ls6 }}\defformat {\info {\*\nisusgmtoffset -5:00}{\author Joshua Eldridge}{\creatim \yr2014 \mo3 \dy14 \hr15 \min18 }{\revtim \yr2014 \mo3 \dy18 \hr9 \min42 }}{\*\userprops }\viewkind4 \viewscale125 \nisusviewruler1
+\nisusviewrulerh1 \nisusviewrulerv0 \nisusviewtoolbar1 \nisusviewtooldrawer0 \nisusviewpagenumtype1 \nisusviewrulericons0 {\*\nisusviewsettings \viewkind4 \viewscale125 {\nisusnavsettings {\*\closedtochandles }{\*\mode toc}}}{\*\nisusviewsettings \viewkind1 \viewzk1 {\nisusnavsettings {\*\visible 0}{\*\closedtochandles }{\*\mode toc}}}{\*\nisuswindow \x362 \y51 \w840 \h720 }\nisusrulerunits0
+\nshwinv0 \nshwpg1 \nisusinlinespell1 \hyphauto0 \hyphhotz9360 \nisusselectstart0 \nisusselectlength0 \ftnstart1 \ftnnar \aftnstart1 \aftnnar \aenddoc \fet2 \ftnbj \paperw12240 \paperh15840 \margl1440 \margr1440 \margt1800 \margb1800 \gutter0 \pgnstart1 \nocolbal \widowctrl \f0 \sectd \endnhere \sftnnar \saftnnar \linemod0 \cols1 \ltrsect \colbalsxn0 \pgwsxn12240 \pghsxn15840 \marglsxn1440 \margrsxn1440 \margtsxn1800 \margbsxn1800 \guttersxn0 \headery720 \footery720 \pgnstarts1 \pgnrestart \pgndec \sxnstarts1 \sxnrestart \sxndec {\header \plain \pard \s5628 \f0\fs24 }{\footer \plain \pard \s5630 \f0\fs24 }\deftab720
+{\pard \nisusnos {\nisusselectcaret #\par
+# This is popup help messages for the Account Panel -> \par
+#\par
+# Fields:\par
+# title - Shown in bold at the top of the popover window\par
+# content - The body of the help popover\par
+# links - List of links shows below the content\par
+#   title - Link title\par
+#   href - href of link (links starting with / are translated to the\par
+#       helpdesk installation path)\par
+#\par
+# The key names such as 'helpdesk_name' should not be translated as they\par
+# must match the HTML #ids put into the page template.\par
+#\par
+---\par
+add_new_agent:\par
+    title: Add New Agent\par
+    content: >\par
+        This form is accessed from the Add New Staff hyperlink (To access this\par
+        form, see Admin Panel -> Staff -> Staff Members).\par
+        \par
+agent_staff_information:\par
+    title: Agent (Staff) Information\par
+    content: >\par
+        <span class='doc-desc-title'>Username</span>, <span\par
+        class='doc-desc-title'>First</span> &amp; <span class='doc-desc-title'>Last\par
+        Name</span>, <span class='doc-desc-title'>Email Address</span> (Required).\par
+        Optionally, <span class='doc-desc-title'>phone numbers</span> can be set\par
+        here also.\par
+        \par
+username:\par
+    title: Username\par
+    content: >\par
+        Please choose an <span class='doc-desc-title'>agent</span> <span\par
+        class='doc-desc-title'>username</span> that is unique to your osTicket\par
+        setup.\par
+        \par
+first_name:\par
+    title: First Name\par
+    content: >\par
+        The full name will generally be visible to any <span\par
+        class='doc-desc-title'>agent</span>/<span\par
+        class='doc-desc-title'>administrator</span> you create on your osTicket\par
+        setup. However, you can choose to hide all <span\par
+        class='doc-desc-title'>agent</span> names inside of ticket responses (Admin\par
+        Panel -> Settings -> Tickets -> Hide staff\rquote s name on responses).\par
+        Establishing a privacy policy is the responsibility of primary <span\par
+        class='doc-desc-title'>administrator</span> of an osTicket setup. To view\par
+        SupportSystem.com\rquote s privacy policy, see here \par
+        (http://supportsystem.com/privacy).\par
+        \par
+last_name:\par
+    title: Last Name\par
+    content: >\par
+        The full name will generally be visible to any <span\par
+        class='doc-desc-title'>agent</span>/<span\par
+        class='doc-desc-title'>administrator</span> you create on your osTicket\par
+        setup. However, you can choose to hide all <span\par
+        class='doc-desc-title'>agent</span> names inside of ticket responses (Admin\par
+        Panel -> Settings -> Tickets -> Hide staff\rquote s name on responses).\par
+        Establishing a privacy policy is the responsibility of the primary\par
+        administrator of an osTicket setup. To view  SupportSystem.com\rquote s privacy\par
+        policy, see here (http://supportsystem.com/privacy).\par
+        \par
+email_address:\par
+    title: Email Address\par
+    content: >\par
+        This is the Agent\rquote s email that will receive relevant notifications to that\par
+        Agent.\par
+        \par
+phone_number_mobile_number:\par
+    title: Phone Number/Mobile Number\par
+    content: >\par
+        \par
+mobile_number:\par
+    title: Mobile Number\par
+    content: >\par
+        \par
+account_password:\par
+    title: Account Password\par
+    content: >\par
+        You, as an <span class='doc-desc-title'>administrator</span>, may change an\par
+        Agent\rquote s Password. You may optionally require the Agent to set their own\par
+        Password on next login.\par
+        \par
+password:\par
+    title: Password\par
+    content: >\par
+        \par
+confirm_password:\par
+    title: Confirm Password\par
+    content: >\par
+        \par
+forced_password_change:\par
+    title: Forced Password Change\par
+    content: >\par
+        Enable this if you would like to force the new Agent to create their own\par
+        password that would be more memorable to him/her (recommended).\par
+        \par
+agent_s_signature:\par
+    title: Agent\rquote s Signature\par
+    content: >\par
+        What you create here will be an optional signature that perhaps appears at\par
+        the end of the agent\rquote s ticket responses. Whether this signature appears or\par
+        not depends on the email template that will be used in a ticket response. \par
+        (To create email templates, see Admin Panel -> Emails -> Templates ).\par
+        \par
+account_status_settings:\par
+    title: Account Status &amp; Settings\par
+    content: >\par
+        Activate or lock an agent\rquote s account, assign agent to a group and/or\par
+        department, specify the agent\rquote s time zone, limit agent\rquote s access to only\par
+        assigned tickets &amp; place on vacation when agent is out.\par
+        \par
+account_status:\par
+    title: Account Status\par
+    content: >\par
+        If you change the <span class='doc-desc-title'>agent</span>\rquote s status to\par
+        Locked, then he/she will not be able to login. If you change the <span\par
+        class='doc-desc-title'>agent</span>\rquote s status to Vacation Mode, the agent\par
+        will be able to login but will not receive any of his normal notifications.\par
+        Also, he will not be able to have tickets assigned to him.  \par
+        \par
+assigned_group:\par
+    title: Assigned Group\par
+    content: >\par
+        The Group that you choose in which this <span\par
+        class='doc-desc-title'>agent</span> will belong will dictate what level of\par
+        control the agent has within your osTicket setup. The difference between\par
+        Teams and Groups is that Groups will dictate level of control and a Team is\par
+        simply a collection of users with a common purpose (To add/edit groups and\par
+        their controls,  see  Admin Panel -> Agents [Old: Staff] -> Groups).\par
+        \par
+primary_department:\par
+    title: Primary Department\par
+    content: >\par
+        Choose the department in which you would like this Agent to be primarily\par
+        active. This is necessary if you wish to commission this <span\par
+        class='doc-desc-title'>Agent</span> as the <span\par
+        class='doc-desc-title'>Department Manager</span>. (To commission an Agent\par
+        as Department Manager, see Admin Panel -> Staff -> Departments).\par
+        \par
+time_zone:\par
+    title: Time Zone\par
+    content: >\par
+        \par
+daylight_saving:\par
+    title: Daylight Saving\par
+    content: >\par
+        Enable this feature if you would like Daylight Savings to automatically\par
+        come into play for this Agent\rquote s timestamp.\par
+        \par
+limited_access:\par
+    title: Limited Access\par
+    content: >\par
+        Would you like to limit this <span class='doc-desc-title'>Agent</span>\rquote s\par
+        access to only those tickets which he/she is assigned?\par
+        \par
+directory_listing:\par
+    title: Directory Listing\par
+    content: >\par
+        Would you like this <span class='doc-desc-title'>Agent</span> to be listed\par
+        in the <span class='doc-desc-title'>Agent Directory</span>? (To visit the\par
+        <span class='doc-desc-title'>Agent Directory</span>, see Agent (Staff)\par
+        Panel -> Dashboard -> Agent (Staff) Directory).\par
+        \par
+vacation_mode:\par
+    title: Vacation Mode\par
+    content: >\par
+        If you change the <span class='doc-desc-title'>agent</span>\rquote s status to\par
+        Vacation Mode, the agent will be able to login but will not receive any of\par
+        his normal notifications. Also, he will not be able to have tickets\par
+        assigned to him. \par
+        \par
+administrative_roles:\par
+    title: Administrative Roles\par
+    content: >\par
+        All active <span class='doc-desc-title'>agents</span> have access to the\par
+        <span class='doc-desc-title'>Staff Panel</span> by default.\par
+        \par
+account_administrator:\par
+    title: Account Administrator\par
+    content: >\par
+        Will this <span class='doc-desc-title'>Agent</span> need to manage other\par
+        <span class='doc-desc-title'>agents</span>, <span\par
+        class='doc-desc-title'>account settings</span> and/or <span\par
+        class='doc-desc-title'>billing information</span>.\par
+        \par
+helpdesk_administrator:\par
+    title: Helpdesk Administrator\par
+    content: >\par
+        Ability to manage <span class='doc-desc-title'>helpdesk</span> settings and\par
+        staff's access\par
+        \par
+admin_notes:\par
+    title: Admin Notes\par
+    content: >\par
+        These are notes about the agent whose account you are currently editing.\par
+        But, don\rquote t worry! These notes are only visible to those whose account type\par
+        is \lquote <span class='doc-desc-title'>Admin</span>.\rquote \par
+        \par
+add_agent_button_:\par
+    title: Add Agent (Button)\par
+    content: >\par
+        \par
+reset_button_:\par
+    title: Reset (Button)\par
+    content: >\par
+        \par
+cancel_button_:\par
+    title: Cancel (Button)\par
+    content: >\par
+        \par
+\nisusselected0 \par }}}

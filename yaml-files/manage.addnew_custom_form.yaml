@@ -1,0 +1,98 @@
+#
+# This is popup help messages for the Admin Panel -> Manage -> Add New Custom Form
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
+---
+title:
+    title: Title
+    content: >
+        This title text is shown in a gray box above the form fields
+        
+instructions:
+    title: Instructions
+    content: >
+        You can add extra instructions which will help guide the user into the
+        context of the form fields and possibly highlight required data.
+        
+form_fields:
+    title: Form Fields
+    content: >
+        These are the fields within your form that will be available in order to
+        gather more ticket information.
+        
+sort:
+    title: Sort
+    content: >
+        Click on the up-and-down arrow icon and drag the field row to sort within
+        this form. Sorting preference does not take effect until the form is saved.
+        
+label:
+    title: Label
+    content: >
+        This label is shown as the prompt for this field. Typically, a short-answer
+        field would be rendered like this one:
+        
+type:
+    title: Type
+    content: >
+        This is used to define the type of input expected from the user. You can
+        select from short and long answer, phone number, date and time, checkbox,
+        drop-down list, or a custom list selection.
+        
+internal:
+    title: Internal
+    content: >
+        Fields marked internal are hidden from your clients. Use internal fields to
+        track things which only your staff need to access.
+        
+required:
+    title: Required
+    content: >
+        Forms that have required fields must have valid data before the form can be
+        saved. If checked, forms cannot be submitted or saved until all required
+        fields are satisfied.
+        
+Internal fields can only be required of staff members, since they are
+        hidden from clients.
+        
+variable:
+    title: Variable
+    content: >
+        The field data will be available to email and page templates via the name
+        used in this column. For instance, fields on the common ticket form are
+        available via %{ticket.variable}, where variable is the name used in this
+        column.
+        
+Company information is available via %{company.variable} and user
+        information is available via %{ticket.user.variable}
+        
+delete:
+    title: Delete
+    content: >
+        
+internal_notes:
+    title: Internal Notes
+    content: >
+        
+add_form_button_:
+    title: Add Form (Button)
+    content: >
+        
+reset_button_:
+    title: Reset (Button)
+    content: >
+        
+cancel_button_:
+    title: Cancel (Button)
+    content: >
+        

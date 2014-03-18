@@ -1,0 +1,43 @@
+#
+# This is popup help messages for the Admin Panel -> Settings -> Autoresponder
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
+---
+global_settings:
+    title: Global Settings
+    content: >
+        
+new_ticket:
+    title: New Ticket
+    content: >
+        Autoresponse includes the Ticket ID which will be required to check status
+        of the Ticket.
+        
+new_ticket_by_staff:
+    title: New Ticket by Staff
+    content: >
+        Notice sent when staff creates a ticket on behalf of the user. Staff can
+        override this when creating new tickets.
+        
+new_message:
+    title: New Message
+    content: >
+        Confirmation notice sent when a new message is appended to an existing
+        ticket.
+        
+overlimit_notice:
+    title: Overlimit Notice
+    content: >
+        Ticket denied notice sent to user on limit violation. Admin gets alerts on
+        all denials by default.
+        

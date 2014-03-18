@@ -1,0 +1,71 @@
+#
+# This is popup help messages for the Account Panel -> Account -> Update Account -> Update Account Information
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
+---
+account_information:
+    title: Account Information
+    content: >
+        
+account_number:
+    title: Account Number
+    content: >
+        
+account_status:
+    title: Account Status
+    content: >
+        
+default_domain:
+    title: Default Domain
+    content: >
+        
+contact_information:
+    title: Contact Information
+    content: >
+        
+company_name:
+    title: Company Name
+    content: >
+        
+contact_name:
+    title: Contact Name
+    content: >
+        
+contact_email:
+    title: Contact Email
+    content: >
+        
+phone_number:
+    title: Phone Number
+    content: >
+        
+fax_number:
+    title: Fax Number
+    content: >
+        
+website:
+    title: Website
+    content: >
+        
+save_changes_button_:
+    title: Save Changes (Button)
+    content: >
+        
+reset_button_:
+    title: Reset (Button)
+    content: >
+        
+cancel_button_:
+    title: Cancel (Button)
+    content: >
+        

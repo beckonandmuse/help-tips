@@ -1,0 +1,146 @@
+#
+# This is popup help messages for the Admin Panel -> Settings -> System
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
+---
+system_settings_and_preferences:
+    title: System Settings and Preferences
+    content: >
+        
+general_settings:
+    title: General Settings
+    content: >
+        
+helpdesk_status:
+    title: Helpdesk Status
+    content: >
+        If the status is changed to Offline, the client interface will be disabled.
+        This does not however affect any normal Agent interaction with the Agent
+        Panel.
+        
+helpdesk_name_title:
+    title: Helpdesk Name/Title
+    content: >
+        This appears in the browser tab when a <span class='doc-desc-title'>client
+       </span> goes to your help desk. If your help desk page is bookmarked (i.e.,
+        in your favorites), this will be the title/name of the site page.
+        
+default_department:
+    title: Default Department
+    content: >
+        Determines the default <span class='doc-desc-title'>department</span> for
+        tickets submitted that do not have a department auto-assigned by help topic
+        or incoming email. (To manage departments, see Admin Panel -> Staff ->
+        Departments).
+        
+default_email_templates:
+    title: Default Email Templates
+    content: >
+        
+default_page_size:
+    title: Default Page Size
+    content: >
+        How many Tickets would you like to see per page in the Ticket Tables in the
+        Staff Panel? Each Agent can also customize this number for their own 
+        account under <span class='doc-desc-title'>My Preferences</span>.
+        
+default_log_level:
+    title: Default Log Level
+    content: >
+        Determines to what minimum level of issues that will be recorded in the
+        <span class='doc-desc-title'>system log</span>. Debug represents the least
+        severity, and Error represents the greatest severity. So, if you want to
+        see all issues in the <span class='doc-desc-title'>System Logs</span>,
+        choose Debug.
+        
+purge_logs:
+    title: Purge Logs
+    content: >
+        How long would you like to store the <span class='doc-desc-title'>System
+        Logs</span> until they are deleted? You may also choose to Never Purge
+        Logs.
+        
+default_name_formatting:
+    title: Default Name Formatting
+    content: >
+        You may choose from various formats in which names throughout the system
+        will be displayed. This is also the format that will be used by Emails if
+        no other format is established in the <span class='doc-desc-title'>Email
+        Template</span>. (To edit Email Templates, see Admin Panel -⁠> Emails ->
+        Templates).
+        
+authentication_settings:
+    title: Authentication Settings
+    content: >
+        
+password_expiration_policy:
+    title: Password Expiration Policy
+    content: >
+        Choose how often Agents will be required to change their password. If
+        disabled (i.e., No Expiration), passwords will not expire.
+        
+allow_password_resets:
+    title: Allow Password Resets
+    content: >
+        Would you like to enable the <span class='doc-desc-title'>Forgot My
+        Password</span> link after 2 failed log-in attempts? If so, check the
+        checkbox.
+        
+password_reset_window:
+    title: Password Reset Window
+    content: >
+        When a user (administrator, agent, or client) has requested a <span
+        class='doc-desc-title'>Password Reset</span>, they are emailed a token that
+        will permit the reset to take place. This token however must have an
+        expiration. So, please choose the duration (in minutes) for which this
+        token would be valid.
+        
+staff_excessive_logins:
+    title: Staff Excessive Logins
+    content: >
+        
+staff_session_timeout:
+    title: Staff Session Timeout
+    content: >
+        Choose the maximum idle time (in minutes) before an Agent is required to
+        log in again. If you would like to disable <span
+        class='doc-desc-title'>Agent</span> <span class='doc-desc-title'>Session
+        Timeouts,</span> enter 0 to disable.
+        
+client_excessive_logins:
+    title: Client Excessive Logins
+    content: >
+        
+client_session_timeout:
+    title: Client Session Timeout
+    content: >
+        Choose the maximum idle time (in minutes) before a Client is required to
+        log in again. If you would like to disable <span
+        class='doc-desc-title'>Client</span> <span class='doc-desc-title'>Session
+        Timeouts,</span> enter 0 to disable.
+        
+bind_staff_session_to_ip:
+    title: Bind Staff Session to IP
+    content: >
+        (binds staff session to originating IP address upon login)
+        
+date_time_options:
+    title: Date &amp; Time Options
+    content: >
+        The following settings will alter the Date &amp; Time settings Clients. You can
+        change how these appear by following the PHP date format characters 
+        (http://us3.php.net/manual/en/function.date.php). The following examples are
+        not realtime; they simply display the format for the values in the text
+        input fields to their left. (To set time/date for Agents, see Admin Panel >
+        Staff > select staff profile to edit).
+        

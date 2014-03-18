@@ -1,0 +1,87 @@
+#
+# This is popup help messages for the Admin Panel -> Settings -> Emails
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
+---
+email_settings:
+    title: Email Settings
+    content: >
+        
+default_email_templates:
+    title: Default Email Templates
+    content: >
+        Templates are used as auto-responses for various actions that can take
+        place during a  Ticket’s lifetime. Alerts are sent to Agents as assigned by
+        Department, Team, Help Topic or Group. Responses or Replies are intended
+        for the customer or user who created the Ticket. (To Add or Edit Email
+        Template Sets, see Admin Panel -> Emails -> Templates).
+        
+default_system_email:
+    title: Default System Email
+    content: >
+        Choose an Email Address from which Auto-Responses are sent to Clients.
+        Note, however, that if the Department to which a Ticket is assigned sets
+        its own Default Email Address, that Department Address will override what
+        is set here.
+        
+default_alert_email:
+    title: Default Alert Email
+    content: >
+        Choose an Email Address from which Alerts &amp; Notices are sent to Agents.
+        Note, however, that if the Department or Help Topic sets its own Default
+        Email Address, that Department or Help Topic setting will override what is
+        set here.
+        
+admin_s_email_address:
+    title: Admin’s Email Address
+    content: >
+        Choose an Email Address from which notices of the System Error Log and New
+        Ticket Alerts (if enabled) are sent to the Helpdesk Administrator. (To
+        enable New Ticket Alerts, see Admin Panel -> Settings -> Alerts &amp; Notices
+        -> New Ticket Alert).
+        
+incoming_emails_:
+    title: Incoming Emails 
+    content: >
+        
+email_polling:
+    title: Email Polling
+    content: >
+        Allow IMAP/POP polling once you have set up the information in emails
+        section of Admin Panel. You can also edit the reply separator text.
+        
+strip_quoted_reply:
+    title: Strip Quoted Reply
+    content: >
+        If enabled, this will remove any preceding correspondences duplicated
+        between response communication. Thereby, the Agent &amp; Client, when viewing
+        the Ticket within osTicket, will not see any one preceding message
+        duplicated. Note, this will not actually delete preceding communication; it
+        will only hide it from the Agent &amp; Client.
+        
+reply_separator_tag:
+    title: Reply Separator Tag
+    content: >
+        This is the string that will tell the engine that anything below this line
+        is old correspondence. This way the engine knows to remove it from the
+        Client or Agent’s sight. Note, this is only relevant if <span
+        class='doc-desc-title'>Strip Quoted Reply</span> is enabled above.
+        
+outgoing_emails:
+    title: Outgoing Emails
+    content: >
+        
+default_outgoing_email:
+    title: Default Outgoing Email
+    content: >
+        This setting must only be established if … ah who am I kidding.
