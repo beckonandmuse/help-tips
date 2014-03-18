@@ -1,0 +1,445 @@
+################################################
+# Custom Commands
+################################################
+
+# -----------------------------
+# SelectUniqueTableCell
+# -----------------------------
+# Select chosen cell content from only Document Table
+# Returns the text object (the Cell content).
+
+Define Command SelectUniqueTableCell($row, $column)
+    $doc = Document.active
+    Select Table Cell 1,1
+    $tableSel = $doc.tableSelection
+    If $tableSel
+        $table = $tableSel.table
+        $cellText = $table.textAtRowAndColumn $row, $column
+    else
+        prompt "There is no detectable table!"
+    end
+    Return $cellText
+End
+
+# -----------------------------
+# MakeField
+# -----------------------------
+# Prepares the 'Field' line in the YAML file.
+
+Define Command MakeField($cellContent)
+    $output = $cellContent.copy
+    $output = $output.textByLowercasing
+    $output.findAndReplace '[\W\n]+', '_', 'aE'
+    $output.append ":"
+    Return $output
+End
+
+# -----------------------------
+# MakeTitle
+# -----------------------------
+# Prepares the 'Title' line in the YAML file.
+
+Define Command MakeTitle($cellContent)
+    $cellContentCopy = $cellContent.copy
+    $cellContentCopy.replaceAll '\s+', ' ', 'E'
+    $output = "    title: "
+    $output.append "$cellContentCopy"
+    Return $output
+End
+
+# -----------------------------
+# MakeContent
+# -----------------------------
+# Prepares the 'Content' line in the YAML file.
+
+Define Command MakeContent($cellContent)
+    $cellContentCopy = $cellContent.copy
+
+    Begin Perl
+        
+        $break = "\n        ";
+        $cellContentCopy =~ s/(.{1,75})(?:\s|$|(\p{Ps}))|(.{75})/$1$3$break$2/g;
+
+    End
+
+    $output = "    content: >\n        "
+    $output.append "$cellContentCopy"
+    Return $output
+End
+
+# -----------------------------
+# TableRowCount
+# -----------------------------
+
+Define Command TableRowCount()
+    $doc = Document.active
+    Select Table Cell 1,1
+
+    $tableSel = $doc.tableSelection
+
+    If $tableSel
+        $table = $tableSel.table
+        $rows = $table.rowCount
+    else
+        prompt "There is no detectable table!"
+    end
+    If $rows
+        Return $rows
+    else
+        Prompt "An error occured with counting Table Rows, please troubleshoot."
+    end
+End
+
+# -----------------------------
+# Prompt Import
+# -----------------------------
+Define Command PromptImport()
+    $needsImport = Prompt "Please import the osTicket Character Styles from the Style Library before you continue. 
+    Would you like to add those now?", "", 'No, Thank You', 'Yes, Please!'
+    if $needsImport == 'No, Thank You'
+        exit
+    elsif $needsImport == 'Yes, Please!'
+        Prompt "Please rerun this script after import is complete."
+        Import from Style Library...
+        exit
+    end
+end
+
+# -----------------------------
+# StyleTestInit
+# -----------------------------
+#Define Command StyleTestInit()
+#    Select Table Cell 1,1
+#end 
+################################################
+# (End Custom Commands)
+################################################
+
+# Checks to make sure that all of the proper character styles
+# are included in the file.
+
+#    StyleTestInit()    
+#    $docDescTitleTest = false
+#    $docDescOptTest = false
+#    $menuTitle = Menu Exists 'Format:Character Style:doc-desc-title'
+#    $menuOpt = Menu Exists 'Format:Character Style:doc-desc-opt'
+#    if $menuTitle == 1
+#        $docDescTitleTest = true
+#    elsif $menuOpt == 1
+#        $docDescOptTest = true
+#    end
+#
+#    if $docDescTitleTest == 0
+#        prompt "I broke in! \n \$docDescTitleTest $docDescTitleTest"
+#        $needsImport = Prompt "Please import the osTicket Character Styles from the Style Library before you continue. 
+#        Would you like to add those now?", "", 'No, Thank You', 'Yes, Please!'
+#        if $needsImport == 'No, Thank You'
+#            exit
+#        elsif $needsImport == 'Yes, Please!'
+#            Prompt "Please rerun this script after import is complete."
+#            Import from Style Library...
+#            exit
+#        end
+#        
+#    elsif $docDescOptTest == 0
+#        prompt "I broke in! \n \$docDescOptTest $docDescOptTest"
+#        PromptImport()
+#    end
+#    Prompt "$docDescTitleTest\n$docDescTitleTest"
+
+# Uses current filename to save to a new folder
+
+    $doc = Document.active
+    $path = $doc.filePath
+
+# Establishes current filename & Current immediate parent folder for file.
+
+    $currentName = $path.lastFilePathComponent
+
+# Get the hierarchy of file path with each parent folder being an index value.
+    $components = $path.filePathComponents
+
+    # Calculate the immediate parent for current file.
+    $subfolderCount = $components.count
+    $currentFolderIndex = $subfolderCount - 2
+    $currentFolder = $components[$currentFolderIndex]
+    
+    # Establishes the new location and filename for the results of the
+    # following macro to be saved.
+    $newFolder = '~/Documents/GHProjects/help-tips/separate-tables-pt-2/'
+    $newfilePath = $newFolder.filePathByAppendingComponent($currentName)
+
+# Verifies that the User is running the script from a file that has been
+# created by the first script (Extract Table.nwm).
+
+    If $currentFolder != "separate-tables"
+        $folder = $path.filePathByRemovingLastComponent
+        Prompt "Sorry! Current folder is $folder !"
+    Else
+        # Attempts to save a new copy of the file
+        $isSaved = Save As $newfilePath
+        If ! $isSaved
+            Prompt "Failed to save the document to $newfilePath !"
+        End
+    End
+
+# Deletes the header row.
+
+    Select Table Cell 1,3
+    Table:Select:Rows
+    Table:Delete:Rows
+
+# Deletes the Q. & Comment Column (No. 3).
+
+    Select Table Cell 1,3
+    Table:Select:Columns
+    Table:Delete:Columns
+
+# Gives the first column the proper formatting.    
+
+    Select Table Cell 1,1
+    Table:Select:Columns
+    Format:Remove Attributes and Styles
+    Format:Paragraph Style:Table normal
+
+# Does a Row Count of our Table
+
+    $doc = Document.active
+    Select Table Cell 1,1
+
+    $tableSel = $doc.tableSelection
+    If $tableSel
+        $table = $tableSel.table
+        $rows = $table.rowCount
+    else
+        prompt "There is no detectable table!"
+    end
+
+# The following is adapted from
+# a macro was originally written by Kino and modified 
+# to search for specific Character Styles by Joshua Eldridge,
+# Beckon&Muse.com, dev@beckonandmuse.com
+
+$noStyleName = Cast to String '<no style>'  # customizable
+$emptyDocument = 'Empty document, exiting...'  # customizable (error message)
+$nothingChecked = 'No styles checkmarked, exiting...'  # customizable (error message)
+$sp = Cast to String "\x20"  # "Space" Character
+
+$styleCategories = Array.new 'Character', 'Paragraph', 'List'  # customizable
+
+$styleSymbols = $properties = $selectionsByStyle = Hash.new
+$styleSymbols{$styleCategories[0]} = Cast to String '[a̱]'  # customizable (for Character Style)
+$styleSymbols{$styleCategories[1]} = Cast to String '[¶]'  # customizable (for Paragraph Style)
+$styleSymbols{$styleCategories[2]} = Cast to String '[#]'  # customizable (for List Style)
+
+$properties{$styleCategories[0]} = 'characterStyle'
+$properties{$styleCategories[1]} = 'paragraphStyle'
+$properties{$styleCategories[2]} = 'listStyle'
+
+Require Pro Version 1.3
+$doc = Document.active
+if $doc == undefined
+    exit  # no open document
+end
+
+foreach $text in $doc.allTexts
+    if $text.length
+        $textRanges = Array.new # Will become all Doc. Ranges (i.e., Tables & Text. See 49 & 56)
+        if $text.tables.count  # then, exclude special chars enclosing tables
+            $tableRanges = Array.new
+            foreach $table in $text.tables
+                $tableRanges.appendValue $table.enclosingTextRange
+            end
+            $tableRanges.sort
+            $i = 0
+            foreach $tableRange in $tableRanges
+                $range = Range.newWithLocationAndBound $i, $tableRange.location
+                $textRanges.appendValue $range
+                $i = $tableRange.bound
+            end
+            $range = Range.newWithLocationAndBound $i, $text.length
+        else
+            $range = Range.new 0, $text.length
+        end
+        $textRanges.appendValue $range
+        foreach $textRange in $textRanges
+            $i = $textRange.location
+            $textRangeBound = $textRange.bound
+            while $i < $textRangeBound 
+                $attr = $text.displayAttributesAtIndex $i 
+                $range = $text.rangeOfDisplayAttributesAtIndex $i
+                $sel = TextSelection.new $text, $range
+                foreach $property in $properties.keys
+                    $styleObject = $attr.getProperty $properties{$property}
+                    #############################
+                    # FOR CHOOSING SPECIFIC STYLE
+                    #############################
+                    $bound = $range.bound
+                    if $styleObject
+                        if $styleObject.name == "doc-desc-title"
+                            $doc.setSelection $sel
+                            Format:Character Style:Remove Character Styles
+                            $location = $range.location
+                            $spanStart = "<span class='doc-desc-title'>"
+                            $spanEnd = "</span>"
+                            $text.insertAtIndex $bound, $spanEnd
+                            $text.insertAtIndex $location, $spanStart
+                            $spanStartCount = $spanStart.length
+                            $spanEndCount = $spanEnd.length
+                            $spanCount = $spanStartCount + $spanEndCount
+                            $textRangeBound += $spanCount
+                            $bound += $spanCount
+                        elsif $styleObject.name == "doc-desc-opt"
+                            $doc.setSelection $sel
+                            Format:Character Style:Remove Character Styles
+                            $location = $range.location
+                            $spanStart = "<span class='doc-desc-opt'>"
+                            $spanEnd = "</span>"
+                            $text.insertAtIndex $bound, $spanEnd
+                            $text.insertAtIndex $location, $spanStart
+                            $spanStartCount = $spanStart.length
+                            $spanEndCount = $spanEnd.length
+                            $spanCount = $spanStartCount + $spanEndCount
+                            $textRangeBound += $spanCount
+                            $bound += $spanCount
+                        end
+                    end
+                    #############################
+                    $name = $styleSymbols{$property}
+                    if Defined $styleObject
+                        $name &= $sp & $styleObject.name
+                    else
+                        $name &= $sp & $noStyleName
+                    end
+                    if $selectionsByStyle{$name} == undefined
+                        $selectionsByStyle{$name} = Array.new
+                    end
+                    $selectionsByStyle{$name}.appendValue $sel                                                
+                end
+                $i = $bound
+            end
+        end
+    end
+end
+
+if ! $selectionsByStyle.count # No defined styles in document.
+    exit $emptyDocument
+end
+
+# Does a Row Count of our Table
+
+    $doc = Document.active
+    Select Table Cell 1,1
+
+    $tableSel = $doc.tableSelection
+
+    If $tableSel
+
+        # This is our TABLE OBJECT being drawn from the 
+        # TABLE SELECTION OBJECT (using .table).
+
+        $table = $tableSel.table
+        $rows = $table.rowCount
+    else
+        prompt "There is no detectable table!"
+    end
+
+# Looks for rows with no content (i.e., no help tip)
+    $deleteMe = Array.new
+    $i = 0
+    While $i < $rows
+        $cell = SelectUniqueTableCell($i, 1)        
+            if ! $cell.length
+                $currentRow = $i + 1
+                $deleteMe.prependValue $currentRow
+            end
+        $i += 1
+    end
+
+####################################################
+## VERIFY DELETION OF ROWS ## 
+## Comment out if you want to enable verification of deletion by user
+#    $deleteFields = ""
+#    foreach $row in $deleteMe
+#        $tsDataRow = $row - 1
+#        $cellTsData = SelectUniqueTableCell($tsDataRow, 0)
+#        $appendMsg = $cellTsData.copy
+#        $deleteFields &= $appendMsg
+#        $deleteFields &= ", "
+#    end
+#    $deleteFields.findAndReplace ', $', '', 'E'
+#    $msg = "The following fields will be deleted: "
+#    $msg &= $deleteFields
+#
+#    prompt "$msg"
+####################################################
+
+# Deletes the Empty Rows just learned about.
+    foreach $row in $deleteMe
+        Select Table Cell $row,2
+        Table:Delete:Rows
+    end
+
+# Where did the following comment originally go?
+# Does a search for key styles in the description column
+# and replaces them with the appropriate HTML span elements.
+
+# YAML File header. NOTE: the following is not a chunk of commented-out lines.
+$YAMLNotes = "#
+# This is popup help messages for the Account Panel -> 
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
+---\n"
+
+Select Document End
+Insert Text $YAMLNotes
+
+# Does a new row count after deletions
+    $rows = TableRowCount()
+    if ! $rows
+        prompt "An error occurred with counting the Table rows, following the deletion process for empty Help Tip cells."
+    end
+
+$i = 0
+# Builds the YAML content from each row
+    While $i < $rows
+        $cell = SelectUniqueTableCell($i, 0)        
+            $fieldLabel = MakeField($cell)
+            Select Document End
+            Insert Text "$fieldLabel\n"
+        $cell = SelectUniqueTableCell($i, 0)        
+            $title = MakeTitle($cell)
+            Select Document End
+            Insert Text "$title\n"
+        $cell = SelectUniqueTableCell($i, 1)    
+            $content = MakeContent($cell)
+            Select Document End
+            Insert Text "$content\n"
+        $i += 1
+    End
+
+Select Table 1
+Delete
+
+Replace All '&', '&amp;'
+Replace All '(class=\'doc-desc-title\'>) ', " \\1", 'aE'
+Replace All ' (</span>)', "\\1 ", 'aE'
+
+$doc = Document.active
+$text = $doc.text
+$text.findAndReplace '^\n', '', 'E'
+
+Select Document Start
+
+# Save File
+File:Save

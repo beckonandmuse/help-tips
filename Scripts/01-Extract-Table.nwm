@@ -6,8 +6,20 @@ $doc = Document.active
 $style = $doc.styleWithName “Heading 4”
 Find $style
 $fname = Read Selection
+
+# Strips the Filename of any possible line breaks.
+
+$fnameToSave = $fname.copy
+$fnameToSave.findAndReplace “\n”, “”, “E”
+
+$clipboardTest = Clipboard Exists “table_name”
+if $clipboardTest
+	Delete Clipboard “table_name”
+end
 New Clipboard “table_name”
-Write Clipboard “$fname”, ‘table_name’
+
+Write Clipboard “$fnameToSave”, ‘table_name’
+
 
 Select Next Table
 Edit:Copy:Copy
@@ -31,3 +43,17 @@ If ! $isSaved
 End
 
 Delete Clipboard 'table_name'
+
+File:Save
+
+# Prompts User to trigger the next script.
+
+$nextScript = "02. Create YAML from Extract"
+
+$msg = "Would you like to trigger the next script now?\nNext Script:\t$nextScript"
+
+$triggerScript = prompt $msg, '', 'Trigger the Next Script!'
+
+If $triggerScript
+	Macro:Help Tips (osTicket):02. Create YAML from Extract
+end
