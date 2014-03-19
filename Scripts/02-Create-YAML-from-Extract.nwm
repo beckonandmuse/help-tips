@@ -115,6 +115,9 @@ end
 # (End Custom Commands)
 ################################################
 
+# THE FOLLOWING COMMENTED OUT CODE NEEDS TO BE DEBUGGED. I HAVE JUST MANUALLY
+# ADDED THE PROPER STYLES TO ALL EXTRACTED TABLE FILES.
+
 # Checks to make sure that all of the proper character styles
 # are included in the file.
 
