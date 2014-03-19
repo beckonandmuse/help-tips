@@ -1,5 +1,5 @@
 #
-# This is popup help messages for the Admin Panel -> Settings -> Emails
+# This is popup help messages for the Admin Panel -> Settings -> Tickets
 #
 # Fields:
 # title - Shown in bold at the top of the popover window
@@ -13,75 +13,99 @@
 # must match the HTML #ids put into the page template.
 #
 ---
-email_settings:
-    title: Email Settings
+global_ticket_settings_options:
+    title: Global Ticket Settings &amp; Options
     content: >
+        These settings are <span class='doc-desc-title'>global,</span> in that they
+        apply until they are overridden by other possible system settings (e.g., a
+        Department’s SLA Plan overrides the Global Default SLA Plan set below).
         
-default_email_templates:
-    title: Default Email Templates
+ticket_ids:
+    title: Ticket IDs
     content: >
-        Templates are used as auto-responses for various actions that can take
-        place during a  Ticket’s lifetime. Alerts are sent to Agents as assigned by
-        Department, Team, Help Topic or Group. Responses or Replies are intended
-        for the customer or user who created the Ticket. (To Add or Edit Email
-        Template Sets, see Admin Panel -> Emails -> Templates).
+        Choose between Random (Recommended) or Sequential numbers for tickets.
         
-default_system_email:
-    title: Default System Email
+default_sla:
+    title: Default SLA
     content: >
-        Choose an Email Address from which Auto-Responses are sent to Clients.
-        Note, however, that if the Department to which a Ticket is assigned sets
-        its own Default Email Address, that Department Address will override what
-        is set here.
+        Default Service Level Agreement Plan dictates how long a Ticket remains
+        Open before it is marked Overdue.
         
-default_alert_email:
-    title: Default Alert Email
+default_priority:
+    title: Default Priority
     content: >
-        Choose an Email Address from which Alerts &amp; Notices are sent to Agents.
-        Note, however, that if the Department or Help Topic sets its own Default
-        Email Address, that Department or Help Topic setting will override what is
-        set here.
+        Choose a default priority level for new tickets throughout the system. Know
+        that this setting can be overridden by <span class='doc-desc-title'>Email
+        Accounts</span>, and <span class='doc-desc-title'>Ticket Filter
+       </span> settings will override all settings. 
         
-admin_s_email_address:
-    title: Admin’s Email Address
+maximum_open_tickets:
+    title: Maximum Open Tickets
     content: >
-        Choose an Email Address from which notices of the System Error Log and New
-        Ticket Alerts (if enabled) are sent to the Helpdesk Administrator. (To
-        enable New Ticket Alerts, see Admin Panel -> Settings -> Alerts &amp; Notices
-        -> New Ticket Alert).
+        Enter the maximum number of Open Tickets a Client is permitted to have
+        simultaneously. This will help protect against spam and enable email flood
+        control.   Enter 0 if you prefer to disable this limitation.
         
-incoming_emails_:
-    title: Incoming Emails 
+agent_collision_avoidance:
+    title: Agent Collision Avoidance
     content: >
+        Enter the length of time after an Agent stops ticket-response activity that
+        a lockout period takes affect. This lockout prevents other Agents from
+        sending a ticket response to the Client. It does not however prevent others
+        from composing a draft. If the locking Agent sends their response, then any
+        other Agent’s draft will be deleted. Enter 0 to disable the lockout
+        feature.
         
-email_polling:
-    title: Email Polling
+email_ticket_priority:
+    title: Email Ticket Priority
     content: >
-        Allow IMAP/POP polling once you have set up the information in emails
-        section of Admin Panel. You can also edit the reply separator text.
+        Use email priority assigned by addressee’s mail service
         
-strip_quoted_reply:
-    title: Strip Quoted Reply
+show_related_tickets:
+    title: Show Related Tickets
     content: >
-        If enabled, this will remove any preceding correspondences duplicated
-        between response communication. Thereby, the Agent &amp; Client, when viewing
-        the Ticket within osTicket, will not see any one preceding message
-        duplicated. Note, this will not actually delete preceding communication; it
-        will only hide it from the Agent &amp; Client.
+        Show all related tickets on user login - otherwise access is restricted to
+        one ticket view per login
         
-reply_separator_tag:
-    title: Reply Separator Tag
+human_verification:
+    title: Human Verification
     content: >
-        This is the string that will tell the engine that anything below this line
-        is old correspondence. This way the engine knows to remove it from the
-        Client or Agent’s sight. Note, this is only relevant if <span
-        class='doc-desc-title'>Strip Quoted Reply</span> is enabled above.
+        Enable CAPTCHA on the Client Portal to verify an incoming ticket is the
+        result of human activity.
         
-outgoing_emails:
-    title: Outgoing Emails
+auto_claim_tickets:
+    title: Auto-Claim Tickets
     content: >
+        Enable this to auto-assign unassigned tickets to the initial responding
+        Agent.
         
-default_outgoing_email:
-    title: Default Outgoing Email
+assigned_tickets:
+    title: Assigned Tickets
     content: >
-        This setting must only be established if … ah who am I kidding.
+        Enable this feature to make visible (in the Open Queue) Ticket Assignments
+        that do not belong to the current user.
+        
+answered_tickets:
+    title: Answered Tickets
+    content: >
+        Show tickets that have been answered by staff  in open queue. If not check,
+        answered tickets will show up in a separate column until user responds,
+        thereby moving it to the opened queue. 
+        
+staff_identity_masking:
+    title: Staff Identity Masking
+    content: >
+        If enabled, this will hide the Agent’s name from the Client during any
+        communication.
+        
+enable_html_ticket_thread:
+    title: Enable HTML Ticket Thread
+    content: >
+        If enabled, this will permit the use of rich text formatting between
+        Clients and Agents and Auto-Response emails. 
+        
+ticket_response_files:
+    title: Ticket Response Files
+    content: >
+        Enable this if you would like for attachments within an Agent’s ticket
+        response to be included in the Client’s email.

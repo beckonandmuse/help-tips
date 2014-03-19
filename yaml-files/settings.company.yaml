@@ -21,22 +21,10 @@ company_information:
         in email signatures (i.e., the footer) when tickets are responded to by
         agents.
         
-company_name:
-    title: Company Name
-    content: >
-        
-website:
-    title: Website
-    content: >
-        
 phone_number:
     title: Phone Number
     content: >
         Just ask, what number would the Yellow Pages give me?
-        
-address:
-    title: Address
-    content: >
         
 site_pages:
     title: Site Pages
@@ -73,8 +61,7 @@ logos:
 upload_a_new_logo:
     title: Upload a new logo
     content: >
-        The accepted file types are .jpg and .png. You may use any size image you
-        would like, since we will be sure to resize it (while maintaining
-        proportions) when it is used. However, to speed up the site’s load times,
-        it is recommended that you keep your image close to the default image 
-        (817x170).
+        Choose an image in the .gif, .jpg or .png formats. We will proportionally
+        resize the display of your image. We will not however resize the image’s
+        data. Therefore, to speed load times, it is recommended that you keep your
+        image close to the default image (817x170).

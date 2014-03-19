@@ -21,14 +21,13 @@ system_logs:
         activity (e.g., Errors, Warnings, or Bugs). To hone in on a specific type,
         see the <span class='doc-desc-title'>Type</span> dropdown box.
         Additionally, the type of events that are included in the System Logs can
-        be customized under <span class='doc-desc-title'>System Settings</span> 
-        (Admin Panel -> Settings -> System -> General Settings -> Default Log
-        Level).
+        be customized under <span class='doc-desc-title'>System Settings</span>.
         
 date_span:
     title: Date Span
     content: >
-        Narrow your calendar range that you would like to view in the System Logs.
+        Narrow your calendar range that you would like to view in the <span
+        class='doc-desc-title'>System Logs</span>.
         
 type:
     title: Type
@@ -39,8 +38,8 @@ showing_logs:
     title: Showing...Logs
     content: >
         Be sure to check the <span class='doc-desc-title'>Page</span> section below
-        to make sure that there are not more pages displaying System Logs
-        available.
+        to make sure that there are not more pages displaying available System
+        Logs.
         
 log_title:
     title: Log Title
@@ -69,6 +68,6 @@ log_date:
 ip_address:
     title: IP Address
     content: >
-        This refers to the IP Address of either the agent or client that was using
-        osTicket at the time the log was generated.
-        
+        This refers to the <span class='doc-desc-title'>IP</span><span
+         class='doc-desc-title'>Address</span> of either the agent or client that
+        was using osTicket at the time the log was generated.
